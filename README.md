@@ -11,6 +11,7 @@ This project uses [gitmoji](https://gitmoji.dev) for its commit messages.
 # Requirements
 
 This source code has only been tested with **PHP 8.1** and is not guaranteed to work on any other version.
+
 # How To Run
 
 Each daily puzzle is stored in its own folder, and each step has its own PHP file.
@@ -19,7 +20,7 @@ For example, if you want to run the second puzzle of the third day, proceed as f
 
 ```sh
 cd Day\ 3
-php -f day3-2.php
+php day3-2.php
 ```
 
 ## Running With Test Input
@@ -29,5 +30,5 @@ Each daily puzzle comes with two data sets: test and full input.
 You can run the code using the test input like this:
 
 ```sh
-php -f day3-2.php -- -test
+php day3-2.php -- -test
 ```
